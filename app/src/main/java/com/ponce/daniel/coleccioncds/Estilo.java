@@ -11,7 +11,7 @@ public enum Estilo {
     CLASICA(R.string.clasica_name);
 
     private int nombre;
-
+    //private int imagen;
     Estilo(int nombre){
         this.nombre = nombre;
     }

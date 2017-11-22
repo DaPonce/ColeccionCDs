@@ -8,13 +8,7 @@ import java.util.Comparator;
 
 public class ComparadorPublicacion implements Comparator<Disco> {
     @Override
-    public int compare(Disco disco1, Disco disco2) {
-        if(disco1.getPublicacion() > disco2.getPublicacion()){
-            return 1;
-        } else if(disco1.getPublicacion() < disco2.getPublicacion()){
-            return -1;
-        } else {
-            return 0;
-        }
+    public int compare(Disco d1, Disco d2) {
+        return Integer.compare(d1.getPublicacion(),d2.getPublicacion());
     }
 }

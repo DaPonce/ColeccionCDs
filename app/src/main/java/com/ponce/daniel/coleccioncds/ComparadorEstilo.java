@@ -8,7 +8,7 @@ import java.util.Comparator;
 
 public class ComparadorEstilo implements Comparator<Disco> {
     @Override
-    public int compare(Disco disco1, Disco disco2) {
-        return 0;
+    public int compare(Disco d1, Disco d2) {
+        return  d1.getEstilo().toString().compareTo(d2.getEstilo().toString());
     }
 }
