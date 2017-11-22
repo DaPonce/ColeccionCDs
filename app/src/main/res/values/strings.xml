@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ColeccionCDs</string>
+    <string name="pop_name">POP</string>
+    <string name="folk_name">FOLK</string>
+    <string name="rock_name">ROCK</string>
+    <string name="clasica_name">POP</string>
+</resources>
